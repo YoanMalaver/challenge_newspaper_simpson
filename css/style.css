@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: #f6f6f6; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.newsletter {
+  width: 700px;
+  background: #f6f6f6;
+  border: 1px solid gray;
+  padding: 15px;
+}
+.name {
+  text-align: center;
+  font-family: 'Fondamento', cursive;
+  border-bottom: 1px solid black;
+}
+.name p {
+  font-size: 35px;
+  padding-bottom: 6px;
+}
+.info {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.info p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding: 6px 0;
+}
+.title h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin: 4px 0 0;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.content {
+  display: flex;
+  padding-bottom: 6px;
+}
+.content .left-side {
+  width: 50%;
+  margin-right: 15px;
+}
+.content .left-side h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  font-weight: 200;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 6px 0;
+}
+.content .left-side p {
+  font-size: 16px;
+  padding: 6px 0;
+}
+.content .left-side p:first-child {
+  margin-right: 15px;
+}
+.content .left-side div {
+  display: flex;
+}
+.content .right-side {
+  width: 50%;
+}
+.content .right-side img {
+  width: 100%;
+  transform: rotate(-1deg);
+}
+.content .right-side p {
+  font-size: 16px;
+}
+.page {
+  border-top: 1px solid black;
+  padding: 6px 0;
+  text-align: end;
+  font-size: 10px;
+}
